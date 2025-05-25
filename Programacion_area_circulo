@@ -1,0 +1,5 @@
+#include <cmath>  // Para M_PI y pow
+
+double areaCirculo(double radio) {
+    return M_PI * pow(radio, 2);
+}
